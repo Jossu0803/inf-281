@@ -1,0 +1,51 @@
+.titulo{
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  margin-bottom: 0;
+}
+.formulario{
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.formulario fieldset{
+  width: 65%;
+}
+.formulario label{
+  display: block;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.formulario input:not([type="submit"]){ 
+  padding: 1rem;
+  display: block;
+  width: 100%;
+  background-color: var(--blanco);
+  border: 1px solid var(--gris);
+  border-radius: 1.2rem;
+  margin-bottom: 2rem;
+}
+.btn-olvi {
+  color: var(--blanco);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--rojorosa);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.5)
+  );
+  display: inline-block;
+}
+.btn-olvi:hover {
+  background-color: #c90b60;
+}
+.btn-primary a{
+  color: white;
+  text-align: center;
+}

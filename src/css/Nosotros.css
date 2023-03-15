@@ -1,0 +1,44 @@
+.title{
+  /*font-family: "Brush Script MT";*/
+  font-family: var(--fuenteOriginal);
+  text-align: center;
+  color: var(--morado_claro);
+}
+p{
+  color:black;
+}
+.texto-entrada h3{
+  margin: 0;
+  line-height: 1.4;
+  color: var(--morado_claro);
+  /*font-family: "Brush Script MT";*/
+}
+.texto-entrada h3::after{
+  content: '';
+  display: block;
+  width: 15rem;
+  height: .5rem;
+  background-color: var(--morado_claro);
+  margin-top: 0rem;
+}
+@media (min-width: 768px) {
+  .nosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+.entrada-nosotros{
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .expositores{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+  }
+}
+.expositor p{
+  text-align: center;
+}
