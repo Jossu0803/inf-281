@@ -1,13 +1,14 @@
-
+import React from "react";
 import "../css/InicioAdmin.css";
+
 function InicioAdmin() {
   const handleLoginClick = () => {
   };
   return (
     <div>
-      <h1>Bienvenido al Administrador</h1>
-      <header>
+      <header className = "header">
         <div className="contenedor cont-header">
+         
           <nav className="nav-prin">
             <a href="ExpositorAdmin">Expositor</a>
             <a href="AdminParticipante">Participante</a>
@@ -17,6 +18,10 @@ function InicioAdmin() {
           </nav>
         </div>
       </header>
+      <h1>Bienvenido al Administrador</h1>
+      <div>
+        <button  onClick={handleLoginClick}><a href="SectionInicio">Log out</a></button>
+      </div>
 
     </div>
   );

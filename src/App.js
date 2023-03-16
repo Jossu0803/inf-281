@@ -1,7 +1,7 @@
 //import logo from "./logo.svg";
 import React from "react";
 import "./App.css";
-import { Route, Switch } from "react-router-dom";
+//import { Route, Switch } from "react-router-dom";
 import Header from "./componentes/Header.js";
 import SectionInicio from "./componentes/SectionInicio.js";
 import Footer from "./componentes/Footer.js";
@@ -58,14 +58,17 @@ function App() {
       break
     case "/AdminNosotros":
       component = <AdminNosotros />
-    break
+      break
+    default:
+      component = <SectionInicio />
+      break;
   }
 
   return (
     <div className="App">
-      <Header />
+      {window.location.pathname !== "/ExpositorAdmin" && <Header />}
       {component}
-      <Section />
+      {window.location.pathname !== "/ExpositorAdmin" && <Section />}
       <Footer />
     </div>
   );

@@ -18,7 +18,7 @@ function Login() {
         <input type="password" placeholder="Contraseña" id="contraseña" value={password} onChange={(e) => setPassword(e.target.value)} />
       </fieldset>
       <br></br>
-      <button type="submit" className="btn btn-primary" onClick={handleLoginClick}><a href="InicioAdmin">INGRESAR</a></button>
+      <button type="submit" className="btn btn-primary" onClick={handleLoginClick}><a href="ExpositorAdmin">INGRESAR</a></button>
       <br></br>
       <button className="btn btn-olvi" href="/">Olvidaste tu contraseña</button>
     </form>
