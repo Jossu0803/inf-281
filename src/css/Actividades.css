@@ -1,0 +1,13 @@
+.actividades{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.actividad{
+    border: 1px solid var(--morado_claro);
+    gap: 2rem;
+}
+.actividad tbody{
+    border: 1px solid var(--morado_claro);
+}

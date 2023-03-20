@@ -7,6 +7,7 @@ import SectionInicio from "./componentes/SectionInicio.js";
 import Footer from "./componentes/Footer.js";
 import Section from "./componentes/Section.js";
 import SectionEventos from "./componentes/SectionEventos.js";
+import Actividades from "./componentes/Actividades.js";
 import Nosotros from "./componentes/Nosotros.js";
 import Contactanos from "./componentes/Contactanos.js";
 import Faq from "./componentes/Faq.js";
@@ -16,6 +17,8 @@ import ExpositorAdmin from "./componentes/ExpositorAdmin.js";
 import AdminParticipante from "./componentes/AdminParticipante";
 import AdminEventos from "./componentes/AdminEventos";
 import AdminNosotros from "./componentes/AdminNosotros";
+import Control from "./componentes/Control";
+import ControlEventos from "./componentes/ControlEventos";
 //import { useState } from "react";
 
 function App() {
@@ -31,6 +34,10 @@ function App() {
 
     case "/SectionEventos":
       component = <SectionEventos />
+    break
+
+    case "/Actividades":
+      component = <Actividades />
     break
 
     case "/Contactanos":
@@ -59,8 +66,14 @@ function App() {
     case "/AdminNosotros":
       component = <AdminNosotros />
       break
+    case "/Control":
+      component = <Control />
+      break
+    case "/ControlEventos":
+      component = <ControlEventos />
+      break
     default:
-      component = <SectionInicio />
+      component = <SectionInicio esSectionInicio={true}/>
       break;
   }
 

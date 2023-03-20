@@ -29,7 +29,7 @@ function ExpositorAdmin() {
               <h4>Nombre del expositor</h4>
               <p className="informacion-meta">Detalles <span></span> </p>
               <button className="btn btn-second" onClick={handleLoginClick}><a href="ExpositorAdmin">editar</a><span></span></button>
-              <button className="btn btn-second" onClick={handleLoginClick}><a href="ExpositorAdmin">eliminar</a></button>
+              <button className="btn btn-third" onClick={handleLoginClick}><a href="ExpositorAdmin">eliminar</a></button>
             </a>
           </div>
         </article>
@@ -42,7 +42,7 @@ function ExpositorAdmin() {
               <h4>Nombre del expositor</h4>
               <p className="informacion-meta">Detalles  <span></span> </p>
               <button className="btn btn-second" onClick={handleLoginClick}><a href="ExpositorAdmin">editar</a><span></span></button>
-              <button className="btn btn-second" onClick={handleLoginClick}><a href="ExpositorAdmin">eliminar</a></button>
+              <button className="btn btn-third" onClick={handleLoginClick}><a href="ExpositorAdmin">eliminar</a></button>
             </a>
           </div>
         </article>
@@ -55,7 +55,7 @@ function ExpositorAdmin() {
               <h4>Nombre del expositor</h4>
               <p className="informacion-meta">Detalles <span></span> </p>
               <button className="btn btn-second" onClick={handleLoginClick}><a href="ExpositorAdmin">editar</a><span></span></button>
-              <button className="btn btn-second" onClick={handleLoginClick}><a href="ExpositorAdmin">eliminar</a></button>
+              <button className="btn btn-third" onClick={handleLoginClick}><a href="ExpositorAdmin">eliminar</a></button>
             </a>
           </div>
         </article>
@@ -68,7 +68,7 @@ function ExpositorAdmin() {
               <h4>Nombre del expositor</h4>
               <p className="informacion-meta">Detalles <span></span> </p>
               <button className="btn btn-second" onClick={handleLoginClick}><a href="ExpositorAdmin">editar</a><span></span></button>
-              <button className="btn btn-second" onClick={handleLoginClick}><a href="ExpositorAdmin">eliminar</a></button>
+              <button className="btn btn-third" onClick={handleLoginClick}><a href="ExpositorAdmin">eliminar</a></button>
             </a>
           </div>
         </article>

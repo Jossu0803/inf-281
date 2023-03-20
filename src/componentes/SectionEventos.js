@@ -11,7 +11,7 @@ function SectionEventos() {
                     <img src="../../logo1.png" alt="Evento" />
                 </div>
                 <div className="texto-entrada">
-                    <a href="index.js">
+                    <a href="Actividades">
                         <h4>Evento X</h4>
                         <p className="informacion-meta">Evento: <span>01/01/2023</span> <span></span> </p>
                         <p>Herramientas X</p>
@@ -23,7 +23,7 @@ function SectionEventos() {
                     <img src="../../logo1.png" alt="Evento" />
                 </div>
                 <div className="texto-entrada">
-                    <a href="index.js">
+                    <a href="Actividades">
                         <h4>Evento X</h4>
                         <p className="informacion-meta">Evento: <span>01/01/2023</span> <span></span> </p>
                         <p>Herramientas X</p>
@@ -35,7 +35,7 @@ function SectionEventos() {
                     <img src="../../logo1.png" alt="Evento" />
                 </div>
                 <div className="texto-entrada">
-                    <a href="index.js">
+                    <a href="Actividades">
                         <h4>Evento X</h4>
                         <p className="informacion-meta">Evento: <span>01/01/2023</span> <span></span> </p>
                         <p>Herramientas X</p>

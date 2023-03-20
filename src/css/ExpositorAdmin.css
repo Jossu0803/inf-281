@@ -33,3 +33,46 @@ h1{
 .nav-prin a:hover {
   color: #752f97;
 }
+.btn-second{
+  background-color: rgb(13, 241, 13);
+}
+.btn-third{
+  background-color: rgb(220, 18, 18);
+  
+}
+.btn-third a{
+  color: white;
+}
+.btn-second a{
+  color: red;
+}
+.btn-second {
+  color: var(--blanco);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--azul);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(20, 238, 12, 0.968),
+    rgba(16, 240, 24, 0.5)
+  );
+  display: inline-block;
+}
+.btn-third {
+  color: var(--blanco);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--azul);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(238, 12, 12, 0.968),
+    rgba(235, 11, 29, 0.5)
+  );
+  display: inline-block;
+}

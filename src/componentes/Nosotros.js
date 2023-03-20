@@ -32,19 +32,19 @@ function Nosotros(){
       <div className="contenedor expositores">
         <div className="expositor">
           <img src="../../logo1.png" alt="Loogo" />
-          <p>Nombre del expositor</p>
+          <p>Felipe Altamirano</p>
         </div>
         <div className="expositor">
           <img src="../../logo1.png" alt="Loogo" />
-          <p>Nombre del expositor</p>
+          <p>Leonel Chamaca</p>
         </div>
         <div className="expositor">
           <img src="../../logo1.png" alt="Loogo" />
-          <p>Nombre del expositor</p>
+          <p>Lian Maceda</p>
         </div>
         <div className="expositor">
           <img src="../../logo1.png" alt="Loogo" />
-          <p>Nombre del expositor</p>
+          <p>Josue Canaza</p>
         </div>
       </div>
     </div>
