@@ -1,13 +1,18 @@
 .actividades{
     display: flex;
+    flex-direction: column;
     flex: 1;
     justify-content: center;
     align-items: center;
 }
 .actividad{
-    border: 1px solid var(--morado_claro);
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 1;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--morado_claro);
     gap: 2rem;
-}
-.actividad tbody{
-    border: 1px solid var(--morado_claro);
+    padding: 0 1rem;
+    width: 65%;
 }
