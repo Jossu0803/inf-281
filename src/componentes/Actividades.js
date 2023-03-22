@@ -8,7 +8,7 @@ function Actividades() {
         <h3 style={{textAlign: "center"}}>Evento X Actividades</h3>
         <div className="actividades">
             <div className="actividad">
-                <div>
+                <div className="iconoActividad">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checkbox" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bc62d" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <polyline points="9 11 12 14 20 6" />
@@ -22,6 +22,11 @@ function Actividades() {
                 </div>
                 <div>
                     <div>
+                        <p>AE-002</p> 
+                    </div>
+                </div>
+                <div>
+                    <div>
                         <p>El programa de escritura de actividades CS POGIL</p>
                         <p>Expositor: Pepe</p>
                         <p>Material: </p>
@@ -29,7 +34,7 @@ function Actividades() {
                 </div>
             </div>
             <div className="actividad">
-                <div>
+                <div className="iconoActividad"> 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checkbox" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bc62d" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <polyline points="9 11 12 14 20 6" />
@@ -43,6 +48,11 @@ function Actividades() {
                 </div>
                 <div>
                     <div>
+                        <p>AE-001</p> 
+                    </div>
+                </div>
+                <div>
+                    <div>
                         <p>El programa de escritura de actividades CS POGIL</p>
                         <p>Expositor: Pepe</p>
                         <p>Material: </p>
@@ -50,7 +60,7 @@ function Actividades() {
                 </div>
             </div>
             <div className="actividad">
-                <div>
+                <div className="iconoActividad">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checkbox" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <polyline points="9 11 12 14 20 6" />
@@ -60,6 +70,11 @@ function Actividades() {
                 <div>
                     <div>
                         <p>12:00 - 13:50</p> 
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>AE-001</p> 
                     </div>
                 </div>
                 <div>

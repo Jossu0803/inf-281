@@ -19,6 +19,9 @@ import AdminEventos from "./componentes/AdminEventos";
 import AdminNosotros from "./componentes/AdminNosotros";
 import Control from "./componentes/Control";
 import ControlEventos from "./componentes/ControlEventos";
+import ControlActividades from "./componentes/ControlActividades";
+import Participante from   "./componentes/Participante";
+
 //import { useState } from "react";
 
 function App() {
@@ -71,6 +74,12 @@ function App() {
       break
     case "/ControlEventos":
       component = <ControlEventos />
+      break
+      case "/ControlActividades":
+      component = <ControlActividades />
+      break
+    case "/Participante":
+      component = <Participante />
       break
     default:
       component = <SectionInicio esSectionInicio={true}/>

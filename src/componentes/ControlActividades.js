@@ -2,9 +2,9 @@ import React from "react";
 import "../css/Section.css";
 import "../css/SectionInicio.css";
 import "../css/header.css";
-import SectionEventos from "./SectionEventos";
+import Actividades from "./Actividades";
 
-function ControlEventos() {
+function ControlActividades() {
   const handleLoginClick = () => {
   };
   return (
@@ -23,10 +23,10 @@ function ControlEventos() {
           </nav>
         </div>
       </header>
-      <SectionEventos esControl={true}/>
+      <Actividades />
     </div>
     
   );
 }
 
-export default ControlEventos;
+export default ControlActividades;
